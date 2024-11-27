@@ -34,8 +34,8 @@ export default function Slider() {
   return (
     <div className="relative w-full h-screen">
       <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${slides[currentSlide].image})` }}></div>
-      <div className="absolute inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-        <p className="text-orange-300 text-2xl md:text-4xl font-bold max-w-[70%] text-center p-4">
+      <div className="absolute inset-0 bg-white bg-opacity-50 flex justify-center items-center">
+        <p className="text-black text-2xl md:text-4xl font-bold max-w-[70%] text-center p-4">
           {slides[currentSlide].description}
         </p>
       </div>
